@@ -133,12 +133,12 @@ class Main extends PluginBase {
 				foreach($groupData["permissions"] as $permission) {
 					self::procRolePermission($role, $permission);
 				}
-				foreach($groupData["worlds"] as $worldName => $worldData) {
+				/*foreach($groupData["worlds"] as $worldName => $worldData) {
 					foreach($worldData["permissions"] as $permission) {
-						self::procRolePermission($role, $permission);
+						self::procRolePermission($role, $permission);*/
 					}
 				}
-			}
+			
 
 			foreach(
 				new RecursiveDirectoryIterator(
