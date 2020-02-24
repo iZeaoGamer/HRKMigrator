@@ -136,7 +136,7 @@ class Main extends PluginBase {
 				/*foreach($groupData["worlds"] as $worldName => $worldData) {
 					foreach($worldData["permissions"] as $permission) {
 						self::procRolePermission($role, $permission);*/
-					}
+					
 				}
 			
 
